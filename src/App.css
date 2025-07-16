@@ -1,0 +1,8 @@
+.homeBox {
+  width: 1920px;
+  height: 755px;
+  padding: 46px 278px;
+  background-image: url(./assets/background.png);
+  background-position: center;
+  background-size: cover;
+}

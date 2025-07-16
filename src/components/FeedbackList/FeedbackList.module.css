@@ -1,0 +1,8 @@
+.listBox {
+  display: flex;
+  gap: 18px;
+}
+
+.itemLi {
+  padding: 20px 26px;
+}

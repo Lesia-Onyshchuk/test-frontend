@@ -1,0 +1,41 @@
+.itemBox {
+  width: 380px;
+  height: 502px;
+  background-color: #fff;
+  border: 1px solid #b6b1b1;
+  border-radius: 12px;
+  padding: 20px 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.personBox {
+  display: flex;
+  gap: 16px;
+}
+
+.content {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.75;
+  color: #9b9a99;
+  margin-bottom: 42px;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.46;
+}
+
+.role {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.4;
+}

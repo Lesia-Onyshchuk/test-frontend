@@ -1,9 +1,10 @@
 import FeedbackList from "../../components/FeedbackList/FeedbackList.jsx";
+import css from "./HomePage.module.css";
 
 const HomePage = () => {
   return (
-    <div>
-      <h1>Voices of Success with Sales Fortuna</h1>
+    <div className={css.container}>
+      <h1 className={css.title}>Voices of Success with Sales Fortuna</h1>
       <FeedbackList />
     </div>
   );
