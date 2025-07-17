@@ -10,23 +10,25 @@ import "swiper/css/pagination";
 const FeedbackList = () => {
   return (
     <div className={css.sliderWrapper}>
-      <Swiper
-        modules={[Navigation, Pagination]}
-        spaceBetween={30}
-        slidesPerView={1}
-        navigation
-        pagination={{ clickable: true }}
-        breakpoints={{
-          768: { slidesPerView: 2 },
-          1024: { slidesPerView: 3 },
-        }}
-      >
-        {data.map((item) => (
-          <SwiperSlide key={item.id}>
-            <FeedbackItem item={item} />
-          </SwiperSlide>
-        ))}
-      </Swiper>
+      <div className={css.sliderMask}>
+        <Swiper
+          modules={[Navigation, Pagination]}
+          spaceBetween={30}
+          slidesPerView={1}
+          navigation
+          pagination={{ clickable: true }}
+          breakpoints={{
+            768: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 },
+          }}
+        >
+          {data.map((item) => (
+            <SwiperSlide key={item.id}>
+              <FeedbackItem item={item} />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
     </div>
   );
 };

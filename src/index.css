@@ -4,8 +4,6 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  /* justify-content: center;
-  align-items: center; */
   font-family: "Space Grotesk", sans-serif;
   padding: 0;
 }

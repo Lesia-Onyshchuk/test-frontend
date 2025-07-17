@@ -26,7 +26,6 @@
 
 .content::after {
   content: ' " ';
-  /* font-size: 64px; */
   font-family: "BIZ UDGothic", sans-serif;
   font-weight: 400;
   font-size: 96px;
@@ -61,9 +60,6 @@
 
 .logo {
   margin-bottom: 40px;
-  /* max-width: 272px;
-  min-height: 90px; */
-  /* object-fit: contain; */
 }
 
 .card {
