@@ -1,4 +1,4 @@
-import FeedbackList from "../../components/FeedbackList/FeedbackList.jsx";
+import FeedbackList from "../../components/FeedbackList/FeedbackList";
 import css from "./HomePage.module.css";
 
 const HomePage = () => {

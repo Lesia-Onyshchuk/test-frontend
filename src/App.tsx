@@ -1,11 +1,12 @@
 import "./App.css";
-import HomePage from "./pages/HomePage/HomePage.jsx";
+import HomePage from "./pages/HomePage/HomePage";
 
 const App = () => {
   return (
-    <div class="homeBox">
+    <div className="homeBox">
       <HomePage />
     </div>
   );
 };
+
 export default App;

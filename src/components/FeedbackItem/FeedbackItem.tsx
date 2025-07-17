@@ -1,6 +1,11 @@
 import css from "./FeedbackItem.module.css";
+import { Feedback } from "../FeedbackList/FeedbackList";
 
-const FeedbackItem = ({ item }) => {
+interface FeedbackItemProps {
+  item: Feedback;
+}
+
+const FeedbackItem: React.FC<FeedbackItemProps> = ({ item }) => {
   return (
     <div className={css.card}>
       <div className={css.itemBox}>
