@@ -25,10 +25,15 @@
 }
 
 .content::after {
-  content: "''";
-  font-size: 64px; /*36px*/
+  content: ' " ';
+  /* font-size: 64px; */
+  font-family: "BIZ UDGothic", sans-serif;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 0.36;
+  color: #c6c5c6;
   position: absolute;
-  top: 320px;
+  top: 380px;
   right: 26px;
 }
 
