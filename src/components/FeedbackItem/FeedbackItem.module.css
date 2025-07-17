@@ -8,6 +8,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  position: relative;
 }
 
 .personBox {
@@ -21,6 +22,14 @@
   line-height: 1.75;
   color: #9b9a99;
   margin-bottom: 42px;
+}
+
+.content::after {
+  content: "''";
+  font-size: 64px; /*36px*/
+  position: absolute;
+  top: 320px;
+  right: 26px;
 }
 
 .person {
@@ -38,4 +47,21 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 1.4;
+}
+
+.photo {
+  width: 60px;
+  height: 60px;
+}
+
+.logo {
+  margin-bottom: 40px;
+  /* max-width: 272px;
+  min-height: 90px; */
+  /* object-fit: contain; */
+}
+
+.card {
+  width: 100%;
+  height: auto;
 }
