@@ -1,10 +1,10 @@
-## 🔧 Feedbacks Project
+# 🔧 Feedbacks Project
 
 🌐 Live Preview https://test-frontend-indol-three.vercel.app/
 
 A clean and responsive frontend UI built with React and TypeScript. Deployed via Vercel.
 
-# 🚀 Features
+## 🚀 Features
 
 ⚛️ React.js
 
@@ -14,7 +14,7 @@ A clean and responsive frontend UI built with React and TypeScript. Deployed via
 
 🚀 Fast deployment with Vercel
 
-# 🛠 Tech Stack
+## 🛠 Tech Stack
 
 React
 
@@ -24,7 +24,7 @@ TypeScript
 
 Vercel for hosting
 
-# 📦 Getting Started
+## 📦 Getting Started
 
 Clone the repo
 
@@ -39,7 +39,7 @@ Start the app
 
 npm start
 
-# 📁 Project Structure
+## 📁 Project Structure
 
 public/
 └── assets/
@@ -49,7 +49,7 @@ src/
 ├── App.tsx
 └── main.tsx
 
-# 👩‍💻 Author
+## 👩‍💻 Author
 
 Lesia Onyshchuk
 GitHub: Lesia-Onyshchuk
